@@ -19,10 +19,10 @@
 
     <!--Main Content,  Main To do list -->
     <main>
-        <form >
+        <form onsubmit="return validateForm()" >
             <input type="text" id="task-input" placeholder="add a new task" class="border p-2 rounded">
             <input type="date" id="due-date-input" class="border p-2 rounded">
-            <button type="submit" onclick="validateForm();" class="bg-blue-500 text-white p-(8px) rounded">Add </button>
+            <button type="button" onclick="validateForm();"bg-blue-500 text-black py-2 rounded">Add Task</button>
         </form>
         <section>
             <header>
